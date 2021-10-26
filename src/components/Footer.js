@@ -14,7 +14,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div  id = "footer" className="footer">
             <div className="container">
                 <div className="row">
                     <div className=" col-lg-4 col-md-6 col-sm-6">
@@ -83,7 +83,7 @@ const Footer = () => {
 
                         <p className="pt-3 text-center">
                             Copyright&copy;
-                            {new Date().getFullYear()}&nbsp;New Horizon | All Rights Rederved
+                            {new Date().getFullYear()}&nbsp;Teen Coder | All Rights Rederved
                         </p> 
                     </div>
                 </div>
@@ -94,3 +94,4 @@ const Footer = () => {
 }
 
 export default Footer;
+
