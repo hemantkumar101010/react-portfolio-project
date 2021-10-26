@@ -622,3 +622,32 @@ textarea.form-control{
    }
 
 }
+
+/* footer components */
+
+.footer{
+  background: var(--primary-black);
+  color: var(--primary-dark-gray);
+  padding: 3rem;
+
+}
+.footer a{
+  text-decoration: none;
+  color: var(--primary-dark-gray);
+
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange );
+  cursor: pointer;
+
+}
+
+/* .footer .column{
+  padding-right: 3rem;
+} */
+
+.footer p{
+  margin-bottom: 0;
+}
