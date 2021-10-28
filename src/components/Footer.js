@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-scroll";
 import {
     FacebookShareButton,
     FacebookIcon,
@@ -14,7 +15,7 @@ import {
 
 const Footer = () => {
     return (
-        <div  id = "footer" className="footer">
+        <div id="footer" className="footer">
             <div className="container">
                 <div className="row">
                     <div className=" col-lg-4 col-md-6 col-sm-6">
@@ -25,9 +26,9 @@ const Footer = () => {
                             <a href="tel:7351595713">+91 7351595713</a>
 
                         </div>
-                        <div className="d-flex">
+                        {/* <div className="d-flex">
                             <p>Srinagar Garhwal Uttarakhand India</p>
-                        </div>
+                        </div> */}
                     </div>
 
 
@@ -35,57 +36,59 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
-                                <a className="footer-nav">Home</a>
+                                <Link smooth={true} to="home" className="footer-nav" offset={-110} >Home</Link>
                                 <br />
-                                <a className="footer-nav">About me</a>
+                                <Link smooth={true} to="about" className="footer-nav" offset={-110} >About me</Link>
                                 <br />
-                                <a className="footer-nav">Services</a>
+                                <Link smooth={true} to="services" className="footer-nav" offset={-110} >Services</Link>
                             </div>
                             <div className="col">
-                                <a className="footer-nav">Experience</a>
+                                <Link smooth={true} to="experience" className="footer-nav" offset={-110} >Experience</Link>
                                 <br />
-                                <a className="footer-nav">Portfolio</a>
+                                <Link smooth={true} to="portfolio" className="footer-nav" offset={-110} >Portfolio</Link>
                                 <br />
-                                <a className="footer-nav">Contacts</a>
+                                <Link smooth={true} to="contacts" className="footer-nav" offset={-110} >Contacts</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5 col-md-5 col-sm-6 align-item-center">
-                        <div className="d-flex justify-content-center">
-                            <FacebookShareButton url={"https://www.instagram.com/3coder/"}
-                            quote={"Coding Memes Community"}
-                            hashtag="#codingmemes"
-                            >
-                                <FacebookIcon className="mx-3 " size={36}/>
-                            </FacebookShareButton>
+                    
+                        <div className="col-lg-5 col-md-5 col-sm-6 align-item-center">
+                            <div className="d-flex justify-content-center">
+                                <FacebookShareButton url={"https://www.instagram.com/3coder/"}
+                                    quote={"Coding Memes Community"}
+                                    hashtag="#codingmemes"
+                                >
+                                    <FacebookIcon className="mx-3 " size={32} />
+                                </FacebookShareButton>
 
-                            <TwitterShareButton url={"https://www.instagram.com/3coder/"}
-                            quote={"Coding Memes Community"}
-                            hashtag="#codingmemes"
-                            >
-                                <TwitterIcon className="mx-3 " size={36}/>
-                            </TwitterShareButton>
+                                <TwitterShareButton url={"https://www.instagram.com/3coder/"}
+                                    quote={"Coding Memes Community"}
+                                    hashtag="#codingmemes"
+                                >
+                                    <TwitterIcon className="mx-3 " size={32} />
+                                </TwitterShareButton>
 
-                            <LinkedinShareButton url={"https://www.instagram.com/3coder/"}
-                            quote={"Coding Memes Community"}
-                            hashtag="#codingmemes"
-                            >
-                                <LinkedinIcon className="mx-3 " size={36}/>
-                            </LinkedinShareButton>
+                                <LinkedinShareButton url={"https://www.instagram.com/3coder/"}
+                                    quote={"Coding Memes Community"}
+                                    hashtag="#codingmemes"
+                                >
+                                    <LinkedinIcon className="mx-3 " size={32} />
+                                </LinkedinShareButton>
 
-                            <RedditShareButton url={"https://www.instagram.com/3coder/"}
-                            quote={"Coding Memes Community"}
-                            hashtag="#codingmemes"
-                            >
-                                <RedditIcon className="mx-3 " size={36}/>
-                            </RedditShareButton>
+                                <RedditShareButton url={"https://www.instagram.com/3coder/"}
+                                    quote={"Coding Memes Community"}
+                                    hashtag="#codingmemes"
+                                >
+                                    <RedditIcon className="mx-3 " size={32} />
+                                </RedditShareButton>
+                            </div>
+
+                            <p className="pt-3 text-center">
+                                Copyright&copy;
+                                {new Date().getFullYear()}&nbsp;Teen Coder | All Rights Rederved
+                            </p>
                         </div>
-
-                        <p className="pt-3 text-center">
-                            Copyright&copy;
-                            {new Date().getFullYear()}&nbsp;Teen Coder | All Rights Rederved
-                        </p> 
-                    </div>
+                    
                 </div>
             </div>
 

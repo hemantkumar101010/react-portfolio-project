@@ -8,7 +8,7 @@
 --primary-dark-gray: #666666;
 --primary-orange: #f9ab00;
 --primary-dark:  rgba(52,58,64);
---prinary-red: #ef4035;
+--primary-red: #ef4035;
 --primary-hover-red: #f33501;
 --primary-black: #000000;
 --primary-transparent-black:rgba(0,0,0,0.7);
@@ -149,17 +149,17 @@ nav ul li{
 /* ......................header main offer............................. */
 
 .btn-main-offer{
-  border: 1px solid var(--prinary-red);
+  border: 1px solid var(--primary-orange);
   text-transform: uppercase;
   border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-color: var(--primary-white);
-margin: 2rem;
+  padding: 0.625rem .75rem 0.625rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
 }
 
 .btn-main-offer:hover{
   text-decoration: none;
-  background-color: var(--prinary-red);
+  background-color: var(--primary-orange);
   transition: 0.2s ease-in-out;
 }
 /* ......................particle js............................. */
@@ -195,6 +195,8 @@ margin: 2rem;
 .about-heading{
   color: var(--primary-orange);
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 35px;
 
 }
 
@@ -215,7 +217,7 @@ margin: 2rem;
 }
 
 .services h1{
-  color: var(--primary-dark);
+  color: var(--primary-orange);
   text-transform: uppercase;
 }
 .services .circle{
@@ -644,10 +646,15 @@ textarea.form-control{
 
 }
 
-/* .footer .column{
-  padding-right: 3rem;
-} */
+.footer .col{
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+}
 
 .footer p{
   margin-bottom: 0;
 }
+
+/* .footer-icons{
+  margin-top: 1rem;
+} */
