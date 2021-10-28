@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import "bootstrap-4.5.3/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap-4.0.0/dist/css/bootstrap.min.css";
 // import "bootstrap-5.0.0-beta3/dist/css/bootstrap.min.css";
 import Header from './components/Header';
