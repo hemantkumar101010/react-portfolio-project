@@ -93,7 +93,7 @@ const Portfolio = () => {
     const popupboxConfigTaskManager = {
         titleBar: {
             enable: true,
-            text: "Task manager project"
+            text: "My Projects"
 
         },
         fadeIn: true,

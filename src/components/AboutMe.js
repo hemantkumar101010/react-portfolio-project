@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About Me</h1>
                     <p>
-                        Hemant Kumar, being a big knowledge seeker and a graphic designer has got a stunning About me page that immediately shows if he is ready for the new projects including web & print design, as well as branding.
+                        Hemant Tiwari , being a big knowledge seeker and a graphic designer has got a stunning About me page that immediately shows if he is ready for the new projects including web & print design, as well as branding.
 
                         The webpage has a pleasant color scheme: arrows and characters of orange color look cool on the lovely light gray ground, and the owl image shows his hunger for illustrations.
                     </p>
@@ -23,4 +23,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe
+export default AboutMe;
